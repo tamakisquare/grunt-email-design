@@ -7,7 +7,6 @@
     "assemble": "0.4.37",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-premailer": "0.2.5",
-    "grunt-cdn": "^0.5.2",
-    "grunt-mandrill": "^0.0.2"
+    "grunt-cdn": "^0.5.2"
   }
 }
