@@ -48,7 +48,25 @@ body{
 
 .header{
   width:100%;
-  margin-bottom:$padding;
+  margin-bottom:$padding; 
+  padding: 10px $padding;
+  background: #444;
+  color: #D3CBC5;
+
+  a {
+    // color: #86BFB4;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  p, a, td {
+    font-size: 12px;
+    vertical-align: middle;
+  }
+
+  td:last-of-type {
+    padding-top: 5px;
+  }
 }
 
 .footer {

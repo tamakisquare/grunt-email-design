@@ -78,6 +78,20 @@ body {
 .header {
   width: 100%;
   margin-bottom: 20px;
+  padding: 10px 20px;
+  background: #444;
+  color: #D3CBC5;
+}
+.header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.header p, .header a, .header td {
+  font-size: 12px;
+  vertical-align: middle;
+}
+.header td:last-of-type {
+  padding-top: 5px;
 }
 
 .footer {
