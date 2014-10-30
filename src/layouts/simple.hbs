@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>{{ subject }}</title>
+    <link href="../src/css/main.css" media="all" rel="stylesheet" type="text/css" />
+    <base href="http://192.241.234.55/">
+</head>
+<body>
+    <table class="body-wrap">
+        <tr>
+            <td></td>
+            <td class="container">
+              <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="content">
+                    <table width="100%" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td class="content-block">
+                          <table width="100%" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td class="header">
+                                <table width="100%" cellpadding="0" cellspacing="0">
+                                  <tr>
+                                    <td><a href="http://funsha.com"><img src="img/funsha_logo_h40.png" height="45px" alt="Funsha.com"/></a></td>
+                                  </tr>
+                                  <tr>
+                                    <td class="slogan">THE LOCAL SHARING EXCHANGE</td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                    <table class="main" width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="content-wrap">
+                                <table width="100%" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td class="content-block"><h2>{{ emailTitle }}</h2></td>
+                                    </tr>
+                                    {{ body }}
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="100%" cellpadding="0" cellspacing="0">
+                      <tr>
+           	            <td class="footer">
+                          <table width="100%" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td class="aligncenter content-block">
+                                This email was sent to {{ recipientEmail }}<br/>
+                                {{#if showNotifSettings }}
+                                <a href="http://funsha.com/settings">Change email notification settings</a> at any time.<br/>
+                                {{/if}}
+                                Add no-reply@funsha.com to your address book to make sure you get mail from Funsha.<br/>
+                                Contact us at <a href="mailto:support@funsha.com">support@funsha.com</a><br/>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>

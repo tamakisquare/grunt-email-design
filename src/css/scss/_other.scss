@@ -20,3 +20,8 @@
 .clear{
   clear:both;
 }
+
+.border_bottom {
+  border-bottom: 1px solid $med-grey;
+  padding-bottom: 10px;
+}
